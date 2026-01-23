@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <nav class="bg-white shadow fixed w-full top-0 z-10">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Raj Vaghela</h1>
+            <ul class="flex space-x-6 text-sm font-medium">
+                <li><a href="#about" class="hover:text-blue-600">About</a></li>
+                <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+                <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+                <li><a href="#contact" class="hover:text-blue-600">Contact me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-24">
+        <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+
+
+            <div class="text-center md:text-left">
+                <h2 class="text-4xl font-bold mb-4">
+                    Hi, I'm <span class="text-blue-600">Raj Vaghela</span>
+                </h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    Junior Software Developer
+                </p>
+                <a href="#projects"
+                    class="inline-block bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+                    View My Work
+                </a>
+            </div>
+            <div class="flex justify-center">
+                <img src="img.png" alt="Raj Vaghela"
+                    class="w-64 h-64 object-cover rounded-full shadow-lg border-4 border-white">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="about" class="max-w-6xl mx-auto px-4 py-16">
+        <h3 class="text-2xl font-semibold mb-4">About Me</h3>
+        <p class="text-gray-600 leading-relaxed">
+            I am a passionate web developer with a strong interest in building clean,
+            responsive, and user-friendly websites. I enjoy working with HTML, CSS,
+            Tailwind CSS, and JavaScript.
+        </p>
+    </section>
+
+    <section id="skills" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-2xl font-semibold mb-6">Skills</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="p-4 border rounded text-center">HTML</div>
+                <div class="p-4 border rounded text-center">CSS</div>
+                <div class="p-4 border rounded text-center">Tailwind CSS</div>
+                <div class="p-4 border rounded text-center">JavaScript</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="max-w-6xl mx-auto px-4 py-16">
+        <h3 class="text-2xl font-semibold mb-6">Projects</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <div class="border rounded p-4">
+                <h4>
+                    <a href="https://rajvaghela1.github.io/todo/" class="text-blue-600 hover:underline" target="_blank"
+                        rel="noopener noreferrer">
+                        Project One -> ToDo app
+                    </a>
+                </h4>
+                <p class="text-sm text-gray-600">
+                    Simple ToDo App using HTML , Tailwind CSS & jQuery.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4">
+            <h3 class="text-2xl font-semibold mb-6">Contact Me</h3>
+            <form class="max-w-md">
+                <input type="text" placeholder="Your Name" class="w-full border p-2 mb-4 rounded">
+                <input type="email" placeholder="Your Email" class="w-full border p-2 mb-4 rounded">
+                <textarea placeholder="Your Message" class="w-full border p-2 mb-4 rounded"></textarea>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-6 text-sm text-gray-800">
+        © 2026 Raj Vaghela. All rights reserved.
+    </footer>
+
+</body>
+
+</html>
