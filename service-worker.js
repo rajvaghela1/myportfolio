@@ -4,6 +4,7 @@ const urlsToCache = [
   '/index.html',
 ];
 
+//just comment
 self.addEventListener('install', event => {
   // event.waitUntil(
   //   caches.open(CACHE_NAME)
